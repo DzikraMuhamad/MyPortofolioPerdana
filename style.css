@@ -1,0 +1,384 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* *Style */
+body {
+    background-color: white;
+}
+.topbar {
+    height: 70px;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
+.topbar h3 {
+    position: absolute;
+    font-size: 25px;
+    font-family: candara;
+    font-weight: bold;
+    line-height: 5px;
+    letter-spacing: 3px;
+    top: 35px;
+    left: 350px;
+}
+.home {
+    display: inline-block;
+    position: absolute;
+    font-size: 17px;
+    font-family: candara;
+    top: 28px;
+    left: 750px;
+}
+.experience {
+    display: inline-block;
+    position: absolute;
+    font-size: 17px;
+    font-family: candara;
+    top: 28px;
+    left: 830px;
+}
+.portofolio {
+    display: inline-block;
+    position: absolute;
+    font-size: 17px;
+    font-family: candara;
+    top: 28px;
+    left: 1035px;
+}
+.writing {
+    display: inline-block;
+    position: absolute;
+    font-size: 17px;
+    font-family: candara;
+    top: 28px;
+    left: 1140px;
+}
+.speaking {
+    display: inline-block;
+    position: absolute;
+    font-size: 17px;
+    font-family: candara;
+    top: 28px;
+    left: 1230px;
+}
+.home, .experience, .portofolio, .writing, .speaking, a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+    width: 100%;
+    background-color: whitesmoke;
+}
+.header {
+    width: 900px;
+    background-color: white;
+    position: absolute;
+    top: 200px;
+    bottom: 100px;
+    left: 350px;
+}
+.header h1 {
+    font-family: candara;
+    color: black;
+    font-size: 60px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    color: green;
+}
+.bodyimage {
+    width: 100%;
+    height: 800px;
+    position: absolute;
+    background-color: green;
+    top: 730px;
+    left: 0;
+    right: 0;
+}
+.bodyimage img {
+    width: 750px;
+    height: 800px;
+    position: absolute;
+}
+.satu {
+    position: absolute;
+    background-color: rgb(17, 46, 17);
+    width: 500px;
+    height: 600px;
+    top: 120px;
+    right: 130px;
+    z-index: 5;
+}
+.dua {
+    position: absolute;
+    background-color: rgb(22, 70, 22);
+    width: 500px;
+    height: 600px;
+    top: 100px;
+    right: 110px;
+    z-index: 6;
+}
+.tiga {
+    position: absolute;
+    background-color: rgb(209, 242, 199);
+    width: 500px;
+    height: 600px;
+    top: 80px;
+    right: 90px;
+    z-index: 7;
+}
+.tiga p {
+    margin-top: 110px;
+}
+.tiga .one {
+    font-family: candara;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    margin-left: 50px;
+    margin-right: 50px;
+    position: absolute;
+    top: 20px;
+}
+.tiga .two {
+    font-family: candara;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    margin-left: 50px;
+    margin-right: 50px;
+    position: absolute;
+    top: 170px;
+}
+.tiga .three {
+    font-family: candara;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    margin-left: 50px;
+    margin-right: 50px;
+    position: absolute;
+    top: 290px;
+}
+.bodytext {
+    width: 100%;
+    height: 800px;
+    position: absolute;
+    top: 1530px;
+}
+.bodytext .atas {
+    height: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.atas h2 {
+    font-family: candara;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 400px;
+}
+.bodytext .teks1 {
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    top: 170px;
+    left: 400px;
+}
+.teks1 h3 {
+    font-family: candara;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    position: absolute;
+    top: -20px;
+}
+.teks1 ul li {
+    margin-top: 5px;
+    margin-left: 10px;
+    font-family: candara;
+    color: black;
+    font-size: 16px;
+    letter-spacing: 3px;
+}
+.bodytext .teks2 {
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    top: 380px;
+    left: 400px;
+}
+.teks2 h3 {
+    font-family: candara;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    position: absolute;
+    top: -20px;
+}
+.teks2 ul li {
+    margin-top: 5px;
+    margin-left: 10px;
+    font-family: candara;
+    color: black;
+    font-size: 16px;
+    letter-spacing: 3px;
+}
+.bodytext .teks3 {
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    top: 170px;
+    left: 900px;
+}
+.teks3 h3 {
+    font-family: candara;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    position: absolute;
+    top: -20px;
+}
+.teks3 ul li {
+    margin-top: 5px;
+    margin-left: 10px;
+    font-family: candara;
+    color: black;
+    font-size: 16px;
+    letter-spacing: 3px;
+}
+.closer {
+    width: 100%;
+    height: 500px;
+    background-color: greenyellow;
+    position: absolute;
+    top: 2330px;
+}
+.closer h2 {
+    font-family: candara;
+    color: black;
+    font-size: 30px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    position: absolute;
+    top: 60px;
+    left: 500px;
+}
+.col-md-6 {
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+    position: absolute;
+    top: 150px;
+    display: inline-block;
+    left: 500px;
+}
+.col-md-7 {
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+    position: absolute;
+    top: 150px;
+    display: inline-block;
+    left: 680px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+.cf:after {
+    clear: both;
+}
+.cf {
+    *zoom: 1;
+}
